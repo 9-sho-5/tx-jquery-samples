@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 1200vh;
+  width: 100vw;
+  background: linear-gradient(135deg, #527e99, #88a5b7); /* 初期値 */
+  transition: background 0.1s linear;
+}
