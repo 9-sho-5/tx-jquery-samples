@@ -1,0 +1,51 @@
+---
+name: "🚀 Feature"
+about: "新機能追加用のプルリクエストテンプレート"
+title: "🚀 新機能の追加："
+labels: ["enhancement"]
+assignees: []
+body:
+
+- type: textarea
+  attributes:
+  label: 🚀 概要
+  description: 追加した機能の概要を記載してください
+  placeholder: 例）ログイン機能を追加
+  validations:
+  required: true
+
+- type: textarea
+  attributes:
+  label: 🎯 目的・背景
+  description: なぜこの機能を追加したのか、課題や要望などがあれば記載してください
+  validations:
+  required: true
+
+- type: textarea
+  attributes:
+  label: 🛠 実装内容
+  description: 実装の詳細を箇条書きで記載してください
+  placeholder: | - 〇〇 の実装 - UI に新しい △△ ボタンを追加
+  validations:
+  required: true
+
+- type: checkboxes
+  attributes:
+  label: 🧪 テスト・動作確認
+  options: - label: ローカルでの手動確認を実施済み
+  validations:
+  required: false
+
+- type: textarea
+  attributes:
+  label: 📷 スクリーンショット（UI 変更がある場合）
+  description: UI 変更がある場合はビジュアルを貼ってください
+  validations:
+  required: false
+
+- type: textarea
+  attributes:
+  label: 📝 補足事項
+  description: レビュー時に伝えたいこと、注意点などがあれば記載してください
+  validations:
+  required: false
