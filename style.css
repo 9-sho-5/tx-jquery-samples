@@ -4,16 +4,28 @@
   box-sizing: border-box;
 }
 
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1080px;
+  width: 100%;
+  padding: 120px 0;
+}
+
 body {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 16px;
 }
 
-a {
+.btn {
+  display: block;
   width: 240px;
   height: 80px;
   border: 1px solid #444;
