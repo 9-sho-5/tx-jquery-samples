@@ -1,1 +1,32 @@
+# OS関連
 .DS_Store
+Thumbs.db
+
+# エディタ・IDE関連
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ログ・一時ファイル
+*.log
+*.tmp
+
+# 環境設定ファイル（必要に応じて）
+.env
+.env.*
+
+# コンパイル結果や一時出力（使っていれば）
+dist/
+build/
+
+# npm/yarn を使っていれば
+node_modules/
+
+# Git自身の設定
+.git/
+
+# バックアップファイル
+*~
+*.bak
+*.swp
